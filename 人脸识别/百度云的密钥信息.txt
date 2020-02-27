@@ -1,0 +1,28 @@
+
+
+这是15319000828的账号信息	
+百度云教程网址：https://cloud.baidu.com/doc/FACE/s/Lk37c1tpf
+错误代码例子：https://ai.baidu.com/ai-doc/FACE/5k37c1ujz
+
+
+AppID	
+18464666
+API Key
+rhnMUEZrH28d5ALBsXqQuAHh
+Secret Key
+zwt8kYmhcqsZbcddQUNtqKThKh8161Ep
+
+{
+    "refresh_token": "25.167980b8e65a7305b5167c5fae1eaf82.315360000.1896957234.282335-18464666",
+    "expires_in": 2592000,
+    "session_key": "9mzdA5rkhUCCARM3fn7W2etlUvgeIbojDah374X8dfmPeVR9401n07PTBLqJ0HlNL7Dy4U9amDmpOcRj8cn68eGRQu\/+cA==",
+    "access_token": "24.8004863e80c37173c937b99a56056e86.2592000.1584189234.282335-18464666",
+
+上面一行每个月会变化一次  自己要获取 的网址教程为http://ai.baidu.com/docs#/Auth/top   也可以参照csdn网友的https://blog.csdn.net/mxw2552261/article/details/80850579
+
+    "scope": "public brain_all_scope vis-faceverify_faceverify_h5-face-liveness vis-faceverify_FACE_V3 vis-faceverify_idl_face_merge wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian ApsMisTest_Test权限 vis-classify_flower lpq_开放 cop_helloScope ApsMis_fangdi_permission smartapp_snsapi_base iop_autocar oauth_tp_app smartapp_smart_game_openapi oauth_sessionkey smartapp_swanid_verify smartapp_opensource_openapi smartapp_opensource_recapi fake_face_detect_开放Scope vis-ocr_虚拟人物助理 idl-video_虚拟人物助理",
+    "session_secret": "cbea8021a460abdee6390557f46f60de"
+}
+
+https://aip.baidubce.com/rest/2.0/face/v3/faceset/user/add?access_token=24.8004863e80c37173c937b99a56056e86.2592000.1584189234.282335-18464666
+
