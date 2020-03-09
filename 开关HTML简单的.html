@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://dyich.github.io/xiaochen.github.io/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>开关</title>
+	<script>
+        window.onload=function(){
+            var oBtn = document.querySelectorAll('button')[0];
+            var change = 1;
+            oBtn.onclick=function(){
+                if(change){
+                    oBtn.style.color="green";
+                    this.innerHTML='ON';
+                    change--;
+                }
+                else {
+                    oBtn.style.color="red";
+                    this.innerHTML='OFF';
+                    change++;
+                }
+            }
+        }
+	</script>
+</head>
+<body>
+	<button style="color:red">OFF</button>
+
+
+</body></html>
